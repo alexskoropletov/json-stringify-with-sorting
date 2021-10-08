@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "moduleResolution": "node",
+    "outDir": "./build",
+    "declaration": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "resolveJsonModule": true,
+
+    "lib": ["es2020"],
+    "module": "commonjs",
+    "target": "es2020",
+
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["./src/**/*"],
+  "exclude": ["node_modules"]
+}
