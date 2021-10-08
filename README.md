@@ -1,28 +1,9 @@
-![Moleculer logo](http://moleculer.services/images/banner.png)
+# json-stringify-with-sorting
 
-# moleculer-cron-tasks 
-
-Moleculer Service for https://www.npmjs.com/package/node-cron
+Sorting object keys in a given order in the JSON.stringify result. Recursively
 
 ```js
-import { ServiceBroker } from 'moleculer';
-import CronTasks, { CronTask } from '@skoropletov/moleculer-cron-tasks';
+import * as jsws from '@skoropletov/json-stringify-with-sorting';
 
-const brokerNode1 = new ServiceBroker({
-  nodeID: 'node-1',
-});
 
-brokerNode1.createService({
-  name: 'cron-service',
-  mixins: [CronTasks],
-  tasks: [
-    {
-      name: 'log-seconds',
-      cronTime: '* * * * * *',
-      callback: (): void => {
-        console.log('[!] second passed');
-      },
-    }
-  ] as CronTask[]
-});
 ```
