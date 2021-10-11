@@ -1,6 +1,6 @@
 {
   "name": "@skoropletov/json-stringify-with-sorting",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "JSON.stringify with recursive key sorting",
   "main": "./build/index.js",
   "scripts": {
@@ -12,7 +12,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:alexskoropletov/json-stringify-with-sorting.git"
+    "url": "git+ssh://git@github.com/alexskoropletov/json-stringify-with-sorting.git"
   },
   "homepage": "https://github.com/alexskoropletov/json-stringify-with-sorting#readme",
   "author": "Aleksandr Skoropletov",
@@ -21,5 +21,9 @@
   },
   "engines": {
     "node": ">= 12.x.x"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/alexskoropletov/json-stringify-with-sorting/issues"
+  },
+  "license": "ISC"
 }
